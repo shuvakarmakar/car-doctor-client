@@ -10,7 +10,7 @@ const Navbar = () => {
     const handleLogout = () => {
         logOut()
             .then(() =>{
-                localStorage.removeItem('car-access-token')
+                
             })
             .then(error => console.log(error))
     }
